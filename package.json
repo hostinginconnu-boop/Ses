@@ -14,11 +14,11 @@
   "author": "Mr Frank",
   "license": "GPL-3.0",
   "dependencies": {
-    "@whiskeysockets/baileys": "npm:angularsockets",
+    "@whiskeysockets/baileys": "^6.7.7",
     "@octokit/rest": "^19.0.0",
     "awesome-phonenumber": "^2.64.0",
     "body-parser": "^1.20.2",
-    "cheerio": "^1.0.0-rc.12",
+    "cheerio": "^1.0.0",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "helmet": "^7.1.0",
@@ -34,6 +34,6 @@
     "prettier": "^3.1.0"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": "20.x"
   }
 }
