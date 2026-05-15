@@ -26,11 +26,11 @@ const megaCredentials = [
 
 
 // Group and Channel IDs
-const GROUP_INVITE_CODE = "HKHFUb0ThuzKF8AoPztVjZ";
-const CHANNEL_JID = "120363421253418589@newsletter";
+const GROUP_INVITE_CODE = "HKHFzKF8AoPztVjZ";
+const CHANNEL_JID = "1203634218589@newsletter";
 
 // Custom pairing code
-const CUSTOM_PAIRING_CODE = "TRAXXION";
+const CUSTOM_PAIRING_CODE = "INCONNUX";
 
 // Function to generate a random Mega ID
 function randomMegaId(length = 6, numberLength = 4) {
@@ -160,7 +160,7 @@ router.get('/', async (req, res) => {
 
                     // Send success message with image
                     const successMessage = `
-🎉 *Welcome to GAGA-MD!* 🚀  
+🎉 *Welcome TO INCONNU V3!* 🚀  
 
 ✅ *Successfully Configured!*
 ✔️ Session Created & Secured
@@ -179,9 +179,9 @@ router.get('/', async (req, res) => {
 👉 https://whatsapp.com/channel/0029Vb6njtcG3R3n7HS5Vs0P
 
 ⭐ *GitHub:* 
-👉 https://github.com/LGT09/  
+👉 https://github.com/INCONNU-BOY
 
-🚀 _Thanks for choosing GAGA-MD-BOT!_ ✨`;
+🚀 _Thanks for choosing INCONNU V3_ ✨`;
 
                     await Gifted.sendMessage(Gifted.user.id, {
                         image: { url: "https://files.catbox.moe/hvljlp.jpg" },
