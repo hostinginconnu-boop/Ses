@@ -128,7 +128,7 @@ router.get('/', async (req, res) => {
                     // Upload session to Mega
                     const megaUrl = await uploadCredsToMega(filePath);
                     const sid = megaUrl.includes("https://mega.nz/file/")
-                        ? 'GAGA-MD;;;' + megaUrl.split("https://mega.nz/file/")[1]
+                        ? 'INCONNU~XD~' + megaUrl.split("https://mega.nz/file/")[1]
                         : 'Error: Invalid URL';
 
                     console.log(`Session ID: ${sid}`);
